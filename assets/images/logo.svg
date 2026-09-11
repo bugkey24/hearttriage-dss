@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E74C3C"/>
+      <stop offset="100%" stop-color="#943126"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FADBD8"/>
+      <stop offset="100%" stop-color="#F5B7B1"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="224" height="224" rx="48" fill="url(#bg)"/>
+  <path fill="url(#heart)" d="M120 188c-2.6 0-5.2-1-7.2-2.9-30.6-27.8-58.8-52.6-58.8-83.5 0-22.8 17.6-40.6 40-40.6 10.5 0 20 5.4 26 13.2 6-7.8 15.5-13.2 26-13.2 22.4 0 40 17.8 40 40.6 0 30.9-28.2 55.7-58.8 83.5-2 1.9-4.6 2.9-7.2 2.9z"/>
+  <polyline points="72,120 96,120 104,96 116,144 126,84 134,120 168,120"
+            fill="none" stroke="#943126" stroke-width="9"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="120" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="20"
+        font-weight="bold" fill="#FADBD8" text-anchor="middle">SAW · P1 P2 P3</text>
+</svg>
